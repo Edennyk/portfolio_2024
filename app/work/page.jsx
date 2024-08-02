@@ -8,7 +8,6 @@ import {BsArrowUpRight, BsGithub} from "react-icons/bs";
 import {Tooltip, TooltipContent, TooltipProvider, TooltipTrigger} from "@/components/ui/tooltip";
 import Link from "next/link";
 import Image from "next/image";
-import { Description } from "@radix-ui/react-dialog";
 import WorkSliderButtons from "@/components/WorkSliderButtons";
 
 const projects = [
@@ -18,7 +17,7 @@ const projects = [
         title:'Work project',
         description:'A portal web service for users and administrators of Healthy Hydroponics. Customized a React template to add and modify functionalities based on client requirements',
         stack:[{name: "react.js"}, {name: "material UI"}, ],
-        image:'/assets/work/workproject.png',
+        image:'./assets/work/workproject.png',
         live:'https://portal.healthyhydroponics.ca/',
         github:'',
     },
@@ -28,7 +27,7 @@ const projects = [
         title:'Private project',
         description:'This portfolio was created to showcase the results of my initial learning and application of Next.js and Tailwind CSS.',
         stack:[{name: "next.js"}, {name: "tailwind.css"}, ],
-        image:'/assets/work/project1.png',
+        image:'./assets/work/project1.png',
         live:'',
         github:'https://github.com/Edennyk/portfolio2024',
     },
